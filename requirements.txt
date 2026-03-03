@@ -1,0 +1,29 @@
+# Core libraries
+pandas>=1.5.0          # Data manipulation
+numpy>=1.23.0          # Math operations
+scikit-learn>=1.2.0    # Machine learning
+
+# Visualization
+matplotlib>=3.6.0      # Plotting
+seaborn>=0.12.0        # Better plots
+
+# API
+fastapi>=0.100.0       # Web API
+uvicorn>=0.23.0        # Server
+
+# Streaming
+kafka-python>=2.0.0    # Kafka
+
+# Configuration
+pyyaml>=6.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Progress bars
+tqdm>=4.65.0
+
+pyyaml>=6.0
+
+
