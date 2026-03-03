@@ -603,13 +603,13 @@ class FraudDetectionPipeline:
         # 7. Evaluate
         results_df = self.evaluate_models(models, X_test, y_test)
 
-        # 8.5. Save clean datasets (NEW!)
+        # 8. Save clean datasets
         self.save_clean_dataset(df, X_train, X_test, y_train, y_test)
 
-        # 8. Visualize
+        # 9. Visualize
         self.plot_results(models, X_test, y_test, results_df)
 
-        # 9. Save artifacts
+        # 10. Save artifacts
         self.save_artifacts(models, results_df, X_train)
 
         # Final summary
